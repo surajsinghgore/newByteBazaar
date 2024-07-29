@@ -1,9 +1,9 @@
 import React from 'react'
 
-function MainLayout() {
+function MainLayout({children}) {
   return (
     <div>
-      
+      {children}
     </div>
   )
 }
