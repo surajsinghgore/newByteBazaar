@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from '../components/Header/page'
 export const metadata = {
   icons: {
     icon: "/icon.png",
@@ -21,9 +22,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       
+      <Header />
       
+      {children}
       
-      {children}</body>
+      </body>
     </html>
   );
 }
