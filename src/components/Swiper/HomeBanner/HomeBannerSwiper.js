@@ -6,7 +6,7 @@ import "swiper/css"; // Import Swiper styles
 import "swiper/css/autoplay"; // Import Autoplay styles
 
 import { SwiperData } from "@/data/HomeSwiperData";
-import HomeSwiperCard from "@/components/HomeBanner/HomeSwiperCard";
+import HomeSwiperCard from "@/components/Home/HomeBanner/HomeSwiperCard";
 
 export default function HomeBannerSwiper() {
   return (

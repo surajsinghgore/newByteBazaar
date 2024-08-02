@@ -32,7 +32,7 @@ function page() {
           <Link href="">Category</Link>
         </li>
         <li>
-          <Link href="">Product</Link>
+          <Link href="/product">Product</Link>
         </li>
       </div>
       <div className="flex items-center gap-5 w-[20%] text-2xl justify-end sm:justify-center sm:w-[100%]  sm:py-2 sm:gap-2 sm:text-sm pr-4">

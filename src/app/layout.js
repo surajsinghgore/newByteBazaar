@@ -12,7 +12,6 @@ export const metadata = {
   creator: "impactmindz tech solutions",
   publisher: "impactmindz tech solutions",
 };
-
 const inter = Inter({ subsets: ["latin"] });
 
 

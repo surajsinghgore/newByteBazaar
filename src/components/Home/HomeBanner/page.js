@@ -1,6 +1,5 @@
-import Images from "@/constants/Images";
 import React from "react";
-import HomeBannerSwiper from "../Swiper/HomeBanner/HomeBannerSwiper";
+import HomeBannerSwiper from "../../Swiper/HomeBanner/HomeBannerSwiper";
 
 function page() {
   return (
