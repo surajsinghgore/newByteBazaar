@@ -10,6 +10,7 @@ import homecard3 from "../assets/homecard3.webp";
 import homecard4 from "../assets/homecard4.webp";
 import icon from "../assets/icon.png";
 import loader from "../assets/loader.gif";
+import product from "../assets/product.jpg";
 
 export default{
   banner1,
@@ -18,6 +19,7 @@ export default{
   cart1,
   icon,
   category,
+  product,
   favicon,
   homecard1,
   homecard2,

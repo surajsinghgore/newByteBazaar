@@ -10,3 +10,6 @@ li{
 .categoryCard:hover h1{ 
     color: rgb(1, 81, 105);
 }
+.productCard:hover .productHover{
+    display: flex;
+}
