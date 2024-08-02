@@ -5,7 +5,10 @@ import { FaRegUser } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 import { IoMdSearch } from "react-icons/io";
-function page() {
+// import { clientLoginState } from "../../redux/Slice/CartPopUpModelState.js";
+// import { useDispatch, useSelector } from "react-redux";
+
+function Page() {
   return (
     <header className="flex items-center p-4 border-b sm:flex-wrap">
       <div className="flex items-center gap-2">
@@ -53,4 +56,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

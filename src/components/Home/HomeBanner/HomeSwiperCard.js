@@ -6,7 +6,7 @@ export default function HomeSwiperCard({ data }) {
     <div className="relative">
       <div className="main">
         <div className="relative w-full h-[75vh] ">
-          <Image src={data?.bannerImage?.src ?? ""} alt={data?.bannerImage?.src ?? ""} layout="fill" className="object-cover" />
+          <Image src={data?.bannerImage?.src ?? ""} alt={data?.bannerImage?.src ?? ""} layout="fill" className="object-cover" priority />
         </div>
       </div>
 

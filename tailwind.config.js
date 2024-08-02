@@ -35,7 +35,12 @@ module.exports = {
           
         },
         bgColor:{
-          900:"#00b5f0"
+          900:"#00b5f0",
+          800:"#0a85d1"
+        },
+        primaryColor:{
+          900:"#454545",
+          800:"#0a85d1",
         },
         hoverEffect:{
           900:"#056787"
