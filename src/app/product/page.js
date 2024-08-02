@@ -9,10 +9,10 @@ export default function page() {
       <ProductTopBanner />
 
       <div className="mainSection flex gap-10 flex-wrap">
-        <div class="left sm:hidden">
+        <div className="left sm:hidden">
           <LeftCategoryMenu />
         </div>
-        <div class="flex-1 sm:w-[100%]">
+        <div className="flex-1 sm:w-[100%]">
           <RightMainContainer />
         </div>
       </div>

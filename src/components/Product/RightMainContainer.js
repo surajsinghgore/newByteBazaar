@@ -6,7 +6,7 @@ const RightMainContainer = () => {
   return (
     <div className="w-[98%] m-auto">
       <TopSection />
-      <div class="grid grid-cols-5 gap-4 w-full h-20 my-10 sm:grid-cols-1 ">
+      <div className="grid grid-cols-5 gap-4 w-full h-20 my-10 sm:grid-cols-1 ">
         <ProductCard />
         <ProductCard />
         <ProductCard />

@@ -9,7 +9,7 @@ const ProductTopBanner = () => {
           <p className="py-4">Welcome to our collection, where excitement meets discovery. We&apos;re committed to keeping you at the forefront technology, and lifestyle trends with smartphone,watches and earphones</p>
         </div>
       </div>
-      <div class="image relative w-[20%] h-[250px]">
+      <div className="image relative w-[20%] h-[250px]">
         <Image src={Images.category} alt="main image" layout="fill" className="rounded-lg" />
       </div>
     </div>
