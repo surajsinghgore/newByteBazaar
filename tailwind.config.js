@@ -34,6 +34,12 @@ module.exports = {
           900: "#43bee6"
           
         },
+        bgColor:{
+          900:"#00b5f0"
+        },
+        hoverEffect:{
+          900:"#056787"
+        },
       },
       backgroundImage: {  
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
