@@ -52,7 +52,7 @@ function Page() {
         <div className="relative group">
           <FaRegUser className="cursor-pointer" />
           <ul className="absolute top-6 w-[200px] -right-10 bg-white border BoxShadow text-sm hidden group-hover:block z-40">
-            <Link href="/">
+            <Link href="/user">
               <li className="text-center py-2 border-b hover:bg-bgColor-800 hover:text-white">My Account</li>
             </Link>
             <Link href="/wishlist">

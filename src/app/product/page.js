@@ -7,7 +7,6 @@ export default function page() {
   return (
     <div>
       <ProductTopBanner />
-
       <div className="mainSection flex gap-10 flex-wrap">
         <div className="left sm:hidden">
           <LeftCategoryMenu />

@@ -35,13 +35,13 @@ const ViewItemModal = ({ showModal, setShowModal }) => {
               <div className="relative  mx-auto p-5  border w-[60vw] flex justify-center items-center shadow-lg rounded-lg bg-white pb-10" ref={modalRef}>
                 <div className="mt-3 px-4">
                   <div className="mx-auto flex justify-center gap-5">
-                    <div class="w-[50%] bg-[#ebebeb] flex justify-center items-center h-[54vh] rounded-lg">
-                      <div class=" relative w-[40%] m-auto h-[30vh]">
+                    <div className="w-[50%] bg-[#ebebeb] flex justify-center items-center h-[54vh] rounded-lg">
+                      <div className=" relative w-[40%] m-auto h-[30vh]">
                         <Image src={Images.product.src} alt="Controller" className="" layout="fill" />
                       </div>
                     </div>
-                    <div class="flex-1 pl-4 relative">
-                      <div class="absolute top-0 right-0 text-2xl cursor-pointer hover:text-red-500" title="close modal" onClick={()=>setShowModal(false)}>
+                    <div className="flex-1 pl-4 relative">
+                      <div className="absolute top-0 right-0 text-2xl cursor-pointer hover:text-red-500" title="close modal" onClick={()=>setShowModal(false)}>
                         <IoClose />
                       </div>
                       <h3 className="py-5 text-2xl leading-6 font-medium text-gray-900">Nb. CH99 3D Video Game Controller</h3>

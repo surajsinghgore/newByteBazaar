@@ -11,7 +11,7 @@ const page = () => {
         <div className="w-[90%] m-auto my-10">
 
         {/* <p className="text-center text-2xl py-10">No Items In Wishlist</p> */}
-         <div class="w-full grid grid-cols-4 gap-4 my-4 p-5">
+         <div className="w-full grid grid-cols-4 gap-4 my-4 p-5">
             <WishListCartPage />
             <WishListCartPage />
             <WishListCartPage />
