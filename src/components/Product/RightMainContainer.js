@@ -1,8 +1,9 @@
-import React from "react";
+
 import TopSection from "./Right/TopSection";
 import ProductCard from "./Right/ProductCard";
 
 const RightMainContainer = () => {
+  
   return (
     <div className="w-[98%] m-auto">
       <TopSection />
@@ -15,6 +16,7 @@ const RightMainContainer = () => {
         <ProductCard />
         <ProductCard />
       </div>
+ 
     </div>
   );
 };
