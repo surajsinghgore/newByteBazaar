@@ -5,7 +5,7 @@ import RightSideItemProduct from "./RightSideItemProduct";
 
 const RightSideItemContainer = () => {
   return (
-    <div className="h-[50vh] overflow-x-hidden w-full">
+    <div className="h-[55vh] overflow-x-hidden w-full">
       <RightSideItemProduct />
       <RightSideItemProduct />
       <RightSideItemProduct />
