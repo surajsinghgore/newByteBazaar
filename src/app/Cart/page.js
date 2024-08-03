@@ -6,7 +6,7 @@ import TopTitleBar from "@/components/Cart/CartPage/TopTitleBar";
 const page = () => {
   return (
     <div>
-      <TopTitleBar />
+      <TopTitleBar  title={" Your Shopping Cart"} />
       <div className="cartParent">
         <div className="border w-[90%] m-auto my-10">
 

@@ -55,7 +55,7 @@ function Page() {
             <Link href="/">
               <li className="text-center py-2 border-b hover:bg-bgColor-800 hover:text-white">My Account</li>
             </Link>
-            <Link href="/">
+            <Link href="/wishlist">
               <li className="text-center py-2 border-b hover:bg-bgColor-800 hover:text-white">My Wishlist</li>
             </Link>
             <Link href="/">
