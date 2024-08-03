@@ -2,19 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-
-.categoryCard:hover h1{ 
-    color: rgb(1, 81, 105);
+.categoryCard:hover h1 {
+  color: rgb(1, 81, 105);
 }
-.productCard:hover .productHover{
-    display: flex;
+.productCard:hover .productHover {
+  display: flex;
 }
-
-
 
 ::-webkit-scrollbar {
   background: #a9a9a9;
@@ -28,4 +25,22 @@ li{
 
 ::-webkit-scrollbar-thumb {
   background: #2a2f3e;
+}
+
+.input {
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 5px;
+  padding: 10px 8px;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
