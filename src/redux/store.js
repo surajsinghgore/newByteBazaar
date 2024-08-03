@@ -2,7 +2,7 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 
 
-import CartPopUpModelStateReducer from "./slice/CartPopUpModelState";
+import CartPopUpModelStateReducer from "./Slice/CartPopUpModelState";
 
 // manage reducer
 const rootReducer = combineReducers({
