@@ -58,10 +58,10 @@ const CartPopUpModal = () => {
 
                 {/* btn section */}
                 <div class="flex justify-between my-4 text-lg">
-                  <Link href={"/Cart"} className="bg-bgColor-800 w-[48%] text-center p-3 rounded-md text-white">
+                  <Link href={"/Cart"} className="bg-bgColor-800 w-[48%] text-center p-3 rounded-md text-white hover:bg-slate-950">
                     <button>View Cart</button>
                   </Link>
-                  <button className="bg-bgColor-800 w-[48%] rounded-md text-white">Checkout</button>
+                  <button className="bg-bgColor-800 w-[48%] rounded-md text-white hover:bg-slate-950">Checkout</button>
                 </div>
               </div>
             </div>{" "}
