@@ -51,17 +51,19 @@ const CartPopUpModal = () => {
                   <ProudctPopUpCardItem cartState={cartState} />
                 </div>
 
-                <div class="flex justify-between border-y-2 p-4">
-                  <div class="font-bold text-primaryColor-900">Subtotal:</div>
-                  <div class="font-bold text-primaryColor-800">Rs. 4,700.00</div>
+                <div className="flex justify-between border-y-2 p-4">
+                  <div className="font-bold text-primaryColor-900">Subtotal:</div>
+                  <div className="font-bold text-primaryColor-800">Rs. 4,700.00</div>
                 </div>
 
                 {/* btn section */}
-                <div class="flex justify-between my-4 text-lg">
-                  <Link href={"/Cart"} className="bg-bgColor-800 w-[48%] text-center p-3 rounded-md text-white hover:bg-slate-950">
+                <div className="flex justify-between my-4 text-lg">
+                  <Link href={"/cart"} className="bg-bgColor-800 w-[48%] text-center p-3 rounded-md text-white hover:bg-slate-950">
                     <button>View Cart</button>
                   </Link>
-                  <button className="bg-bgColor-800 w-[48%] rounded-md text-white hover:bg-slate-950">Checkout</button>
+                  <Link href={"/checkout"} className="bg-bgColor-800 w-[48%] text-center p-3 rounded-md text-white hover:bg-slate-950">
+                  <button >Checkout</button>
+                  </Link>
                 </div>
               </div>
             </div>{" "}
