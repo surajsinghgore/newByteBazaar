@@ -2,13 +2,13 @@ const FormPage = () => {
   return (
     <div className="w-[80%] m-auto">
       <form action="">
-        <div class="">
+        <div className="">
           <label htmlFor="Contact" className="w-full text-lg">
             Email
           </label>
           <input type="email" name="email" id="Contact" placeholder="email" className="input w-full my-2" />
         </div>
-        <div class="">
+        <div className="">
           <label htmlFor="Delivery" className="w-full text-lg">
             Delivery
           </label>
@@ -17,7 +17,7 @@ const FormPage = () => {
           </select>
         </div>
 
-        <div class="flex justify-between gap-2">
+        <div className="flex justify-between gap-2">
           <input type="text" name="text" id="Contact" placeholder="First Name" className="input w-[50%] my-2" />
           <input type="text" name="text" id="Contact" placeholder="last Name (optional)" className="input w-[50%] my-2" />
         </div>
@@ -34,7 +34,7 @@ const FormPage = () => {
           <input type="text" name="address" id="address" placeholder="address" className="input w-full my-2" />
         </div>
 
-        <div class="flex justify-between gap-2">
+        <div className="flex justify-between gap-2">
           <input type="text" name="text" id="Contact" placeholder="City" className="input w-[50%] my-2" />
           <input type="text" name="text" id="Contact" placeholder="State" className="input w-[50%] my-2" />
         </div>

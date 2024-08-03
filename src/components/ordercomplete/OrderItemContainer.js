@@ -14,8 +14,8 @@ const OrderItemContainer = () => {
           </div>
         </div>
         <div className="flex-1">
-          <div class="aa">Samsumg Galaxt 20 mobile</div>
-          <div class="text-sm">Qty: 1</div>
+          <div className="aa">Samsumg Galaxt 20 mobile</div>
+          <div className="text-sm">Qty: 1</div>
         </div>
 
         <div className="image">695555</div>

@@ -39,7 +39,7 @@ function Page() {
           <Link href="">Shop</Link>
         </li>
         <li>
-          <Link href="">Category</Link>
+          <Link href="/category">Category</Link>
         </li>
         <li>
           <Link href="/product">Product</Link>
@@ -49,9 +49,20 @@ function Page() {
         <div className="icons">
           <IoMdSearch />
         </div>
-        <div className="icons">
-          <FaRegUser />
-        </div>
+        <div className="relative group">
+      <FaRegUser className="cursor-pointer" />
+      <ul className="absolute top-6 w-[200px] -right-10 bg-white border BoxShadow text-sm hidden group-hover:block">
+        <Link href="/">
+          <li className="text-center py-2 border-b hover:bg-bgColor-800 hover:text-white">My Account</li>
+        </Link>
+        <Link href="/">
+          <li className="text-center py-2 border-b hover:bg-bgColor-800 hover:text-white">My Wishlist</li>
+        </Link>
+        <Link href="/">
+          <li className="text-center py-2 hover:bg-bgColor-800 hover:text-white">Logout</li>
+        </Link>
+      </ul>
+    </div>
         <div className="icons relative">
           <div className=" rounded-full absolute -top-3 right-0 text-sm text-black font-semibold">0</div>
           <i className="cursor-pointer" onClick={() => dispatch(cartPopUpState(true))}>
